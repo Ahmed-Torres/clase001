@@ -1,0 +1,20 @@
+archivos a tener en cuenta en cuanto al flujo de nuestra app:
+
+index.html--> donde se monta nuestra app-->match-->(id)
+index.js--> me dice el emntry point y donde se va a mostrar(donde se monta)
+app.js--> entry pooint (codigo a ejecutar)
+
+
+diferencia entre funcion y componente:
+
+una funcion es en minuscula, componente en mayuscula.
+ej:
+function App(){
+    retur <h2>saraza</h2>;
+}//componente---> esto retoorna un marcado
+
+const sumar = (a, b) => a + b; //function--> la funcion no retorna un marcado
+
+el componente retorna algo visual siempre, jsx
+
+el componente retorna un nodo... una etiqueta ppal. 
