@@ -76,9 +76,17 @@
   background: linear-gradient(#e66465, #9198e5);
 }
 
+.Counter{
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
 .Header h3,
 .Header p{
-  padding: 0 20px;
+  padding: 20px;
 }
 
 .Main{

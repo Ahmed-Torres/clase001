@@ -17,4 +17,28 @@ const sumar = (a, b) => a + b; //function--> la funcion no retorna un marcado
 
 el componente retorna algo visual siempre, jsx
 
+proceso de reconciliacion es cuando el DOM virtual de React renderiza el/los 
+componentes que cambiaron de estado, que se modificaron, y esto le transmite 
+al DOM real para que actualice las vistas.
+
 el componente retorna un nodo... una etiqueta ppal. 
+-------------------------------------------------
+clase002
+archivo .nvmrc --> v14}(me versiona el proyecto)
+
+test-driven development
+TDD -->Desarrollo guiado por pruebas (nos piden, en proyecto grandes, unminimo de coverage) 
+->90% debe estar testeado
+esta bueno abordarlo desde el ppio.
+entendemos el problema desde otra perspectiva.
+testear al final es molesto, si hay error que salte en primer etapa, y no en la ultima
+
+libreria para testing-> 
+    React Testing Library (se basa en interfaz de usuario) (Testing UI)
+    Enzyme (Basado en funcionalidades) 
+
+-> Ambas se basan en jest (libreria para testear [...]) (Test Unitario).
+
+Estado(React) (Contador, Notas)
+
+notas -> testing (coverage, concepto)
